@@ -44,7 +44,52 @@ namespace IBASEmployeeService.Controllers
                     Id = 2,
                     Name = "Support"
                 }
-            }
+            } ,
+            new Employee() {
+            Id = "60",
+            Name = "Enni Korhonen",
+            Email = "enko@ibas.dk",
+            Department = new Department() {
+                Id = 3,
+                Name = "It"
+                }
+            },
+            new Employee() {
+                Id = "61",
+                Name = "Elsi Korhonen",
+                Email = "elko@ibas.dk",
+                Department = new Department() {
+                    Id = 3,
+                    Name = "It"
+                    
+                }
+                },
+                new Employee() {
+                    Id = "62",
+                    Name = "Olavi Korhonen",
+                    Email = "olko@ibas.dk",
+                    Department = new Department() {
+                        Id = 3,
+                        Name = "It"}
+                },
+                new Employee() {
+                    Id = "70",
+                    Name = "Jeppe Larsen",
+                    Email = "jela@ibas.dk",
+                    Department = new Department() {
+                        Id = 4,
+                        Name = "Kantinen"}
+                },
+                new Employee() {
+                    Id = "71",
+                    Name = "Pia Larsen",
+                    Email = "pila@ibas.dk",
+                    Department = new Department() {
+                        Id = 4,
+                        Name = "Kantinen"}
+                },
+                
+            
         };
             return employees;
         }
